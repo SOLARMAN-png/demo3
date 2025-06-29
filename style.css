@@ -1,0 +1,78 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.toggle-navbar {
+    width: 60px;
+    height: 60px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.toggle-navbar:hover {
+    opacity: 0.5;
+}
+
+
+.side-navbar {
+    width: 50px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    background-color: blue;
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.side-navbar ul {
+    padding-left: 5px;
+    padding-top: 10px;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.side-navbar  ul li {
+    list-style: none;
+    line-height: 50px;
+}
+
+
+.side-navbar ul li span, .side-navbar ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 16px;
+    white-space: nowrap;
+    color: black;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.side-navbar ul li a:hover {
+    background-color: goldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
