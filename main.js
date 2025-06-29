@@ -1,4 +1,4 @@
-let toggleNavStatus = false;
+let toggleNavStatus = false;    
 
 let toggleNav = function () {
   let  getsideBar = document.querySelector(".side-navbar");
